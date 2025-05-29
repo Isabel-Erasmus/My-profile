@@ -1,0 +1,125 @@
+body {
+  background-image: url('images/Unknown-51.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #Fd9584;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+h1
+{color: #914e56; }
+
+H2 {
+	color: #a7a155;
+	font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+
+
+}
+
+#image {
+  width: 210px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+
+.card {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
+  padding: 30px;
+  margin: 60px auto;
+  width: 800px;
+  box-shadow: none;
+  border-radius: 10px;
+  color: #3f3f3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center ;
+
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .card {
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+  }
+
+  #image {
+    width: 170px;
+  }
+
+  h1, h2 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+  }
+
+  #image {
+    width: 150px;
+  }
+
+  h1, h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  #image {
+    width: 120px;
+    margin: 10px auto;
+  }
+
+  h1, h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
